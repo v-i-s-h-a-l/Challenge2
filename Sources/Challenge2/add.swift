@@ -1,4 +1,4 @@
-func add(num1: String, num2: String) -> Int {
+func add(num1: String, num2: String) {
     let int1 = Int(num1) ?? 0
     let int2 = Int(num2) ?? 0
     
