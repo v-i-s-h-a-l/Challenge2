@@ -7,6 +7,12 @@ let package = Package(
     name: "Challenge2",
     targets: [
         .target(
+            name: "MathOperation",
+            dependencies: []),
+        .target(
+            name: "Subtract",
+            dependencies: []),
+        .target(
             name: "Challenge2",
             dependencies: []),
     ]
