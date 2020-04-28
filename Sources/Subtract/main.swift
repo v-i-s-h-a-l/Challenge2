@@ -1,3 +1,5 @@
+import MathOperation
+
 let arguments = CommandLine.arguments
 
 guard arguments.count > 2 else { fatalError("Please define the two numbers") }

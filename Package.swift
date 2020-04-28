@@ -11,7 +11,7 @@ let package = Package(
             dependencies: []),
         .target(
             name: "Subtract",
-            dependencies: []),
+            dependencies: ["MathOperation"]),
         .target(
             name: "Challenge2",
             dependencies: []),
