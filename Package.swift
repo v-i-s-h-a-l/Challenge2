@@ -13,7 +13,10 @@ let package = Package(
             name: "Subtract",
             dependencies: ["MathOperation"]),
         .target(
-            name: "Challenge2",
-            dependencies: []),
+            name: "Add",
+            dependencies: ["MathOperation"]),
+        .target(
+            name: "Multiply",
+            dependencies: ["MathOperation"]),
     ]
 )
